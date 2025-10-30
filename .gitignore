@@ -1,0 +1,19 @@
+# Ignore secrets and sensitive files
+secret.yaml
+*.secret.yaml
+
+# Ignore editor and OS files
+*.swp
+*.bak
+*.tmp
+.DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore Helm and K8s cache files
+charts/
+
